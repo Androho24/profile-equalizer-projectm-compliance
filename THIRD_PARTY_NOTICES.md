@@ -14,6 +14,8 @@ This Android application includes or uses third-party software.
 libprojectM is used to provide a graphical music visualizer integration
 in the Android application **Profile Equalizer**
 (package: `com.androho.profileequalizer`).
+(package: `com.androho.profileequalizerpro`).
+
 
 ### Upstream project
 
