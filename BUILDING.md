@@ -22,6 +22,7 @@ The only application-specific code (the "Application" portion per LGPL-2.1 §6) 
 |------|-------------|
 | `app/src/main/cpp/projectm_bridge.cpp` | JNI bridge between Android/Java and libprojectM C API |
 | `app/src/main/cpp/CMakeLists.txt` | CMake build script; fetches libprojectM v4.1.2 via FetchContent |
+| `app/src/main/java/com/androho/profileequalizer/visualization/ProjectMBridge.kt` | Kotlin JNI bridge used by the Android app|
 
 ## Build Steps
 
@@ -48,7 +49,7 @@ The only application-specific code (the "Application" portion per LGPL-2.1 §6) 
    ```
    The resulting `.so` is at:
    ```
-   app/build/intermediates/cxx/<variant>/.../lib/<abi>/libprofilequalizer-native.so
+   app/build/intermediates/cxx/<variant>/.../lib/<abi>/libprofileequalizer-native.so
    ```
 
 ## How libprojectM is Fetched
