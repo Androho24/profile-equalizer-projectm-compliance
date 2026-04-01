@@ -27,8 +27,8 @@ The only application-specific code (the "Application" portion per LGPL-2.1 §6) 
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/ProfileEqualizer.git
-   cd ProfileEqualizer
+   git clone https://github.com/Androho24/profile-equalizer-projectm-compliance.git
+   cd profile-equalizer-projectm-compliance
    ```
 
 2. **Enable the native build in `app/build.gradle`:**  
