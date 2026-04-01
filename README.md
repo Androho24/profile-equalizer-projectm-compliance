@@ -1,73 +1,30 @@
-# Profile Equalizer – projectM integration materials
+# Upstream Reference
 
-This repository contains source and license materials related to the
-projectM integration used in the Android app **Profile Equalizer**
+This repository documents the projectM-related integration materials used
+in the Android app **Profile Equalizer**
 (package: `com.androho.profileequalizer`).
 
-## Purpose
+## Upstream library
 
-The purpose of this repository is to document the use of **libprojectM**
-in Profile Equalizer and to provide the projectM-related integration and
-license materials in a separate public repository.
+- **Project:** projectM / libprojectM
+- **Upstream repository:** `https://github.com/projectM-visualizer/projectm`
+- **Version used:** `v4.1.2`
 
-This repository is focused on the projectM integration only.
-It is **not** the full source code repository of the complete Android app.
+## Source reference
 
-## Application
+The integration documented here uses the upstream `projectM` source from
+the `v4.1.2` release/tag.
 
-- **App name:** Profile Equalizer
-- **Package:** `com.androho.profileequalizer`
-- **Developer:** Androho Software
+Example upstream source archive:
+- `https://github.com/projectM-visualizer/projectm/archive/refs/tags/v4.1.2.tar.gz`
 
-## Third-party library
+## Local modifications to libprojectM
 
-- **Library:** libprojectM
-- **Version used:** 4.1.2
-- **License:** LGPL-2.1
-
-## Upstream source
-
-The upstream projectM source used for this integration is documented in
-[`UPSTREAM.md`](./UPSTREAM.md).
-
-## Local modifications
-
-At the time of publishing this repository, **no local modifications to
-libprojectM itself** are documented here.
-
-The application-specific integration code contained in this repository
-covers only the bridge/build layer used to connect the Android app to
-libprojectM.
-
-## Included in this repository
-
-This repository may include, depending on the integration state:
-
-- build configuration files related to projectM integration
-- native bridge code
-- Kotlin bridge code
-- notes about the upstream source version used
-- build notes
-- third-party notices
-- a copy of the LGPL-2.1 license text
-
-## Build notes
-
-Information about rebuilding the projectM-related native integration is
-provided in [`BUILDING.md`](./BUILDING.md).
-
-## License information
-
-A copy of the GNU Lesser General Public License v2.1 is included in this
-repository:
-
-- [`license_lgpl21.txt`](./license_lgpl21.txt)
+At the time of publishing this repository, no local modifications to
+libprojectM itself are documented here.
 
 ## Notes
 
-This repository is intended to make the projectM-related materials easier
-to review and reference separately from the private main application
-repository.
-
-For the exact upstream reference used by this integration, see
-[`UPSTREAM.md`](./UPSTREAM.md).
+This repository is not the upstream projectM repository.
+It only contains the projectM-related integration and license materials
+for **Profile Equalizer**.
