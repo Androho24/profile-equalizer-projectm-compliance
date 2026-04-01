@@ -2,8 +2,9 @@
 
 This repository documents the projectM-related integration materials used
 in the Android app **Profile Equalizer**
-(package: `com.androho.profileequalizer`)
-(package: `com.androho.profileequalizerpro`).
+Packages:
+- `com.androho.profileequalizer`
+- `com.androho.profileequalizerpro`
 
 ## Upstream library
 
