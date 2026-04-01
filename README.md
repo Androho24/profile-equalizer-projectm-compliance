@@ -2,7 +2,7 @@
 
 This repository contains source and license materials related to the
 projectM integration used in the Android app **Profile Equalizer**
-(package: `com.androho.profileequalizer`).
+(package: `com.androho.profileequalizer`) (package: `com.androho.profileequalizerpro`).
 
 ## Purpose
 
@@ -17,7 +17,6 @@ It is **not** the full source code repository of the complete Android app.
 
 - **App name:** Profile Equalizer
 - **Package:** `com.androho.profileequalizer`
-- **Package:** `com.androho.profileequalizerpro`
 - **Developer:** Androho Software
 
 ## Third-party library
